@@ -1,0 +1,17 @@
+{
+    "name": "pottyswapper",
+    "version": "1.0.0",
+    "description": "Turn those nasty words into something more positive!",
+    "scripts": {
+        "build": "npm run clean & npm run copy & rollup -c build_scripts/rollup.config.js --environment dev:false",
+        "debug": "npm run clean & npm run copy & rollup -c build_scripts/rollup.config.js --environment dev:true",
+        "clean": "del _build /s /q 2> nul & mkdir _build",
+        "copy": "xcopy manifest.json _build /I /Y & xcopy src\\images _build\\images /D /E /I /Y & xcopy src\\shared _build\\shared /D /E /I /Y"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@rollup/plugin-node-resolve": "15.2.3",
+        "rollup-plugin-terser": "7.0.2"
+    }
+}
