@@ -1,4 +1,4 @@
-## Swap the potty for something not as shoddy!
+## Swap the potty for something less shoddy!
  - Removes and replaces a whole slew of nasty words with positive and encouraging vocabulary.
 
 ##### Get Started
