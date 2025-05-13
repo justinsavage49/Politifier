@@ -14,7 +14,7 @@ function injectionCallback()
 	}
 	else
 	{
-		console.warn("Potty swapper injected.");
+		console.warn("Politifier injected.");
 	}
 }
 
