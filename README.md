@@ -1,4 +1,4 @@
-## Make the Internet a Little Less Rude
+## Make the Internet a Little Less Rude!
  - Replaces offensive language with clean, friendly alternatives.
 
 ##### Get Started
