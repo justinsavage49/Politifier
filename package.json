@@ -1,7 +1,7 @@
 {
     "name": "pottyswapper",
     "version": "1.0.0",
-    "description": "Turn those nasty words into something more positive!",
+    "description": "Replace offensive language with clean, friendly alternatives.",
     "scripts": {
         "build": "npm run clean & npm run copy & rollup -c build_scripts/rollup.config.js --environment dev:false",
         "debug": "npm run clean & npm run copy & rollup -c build_scripts/rollup.config.js --environment dev:true",

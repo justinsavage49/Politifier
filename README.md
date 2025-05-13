@@ -1,5 +1,5 @@
 ## Make the Internet a Little Less Rude!
- - Replaces offensive language with clean, friendly alternatives.
+ - Replace offensive language with clean, friendly alternatives.
 
 ##### Get Started
 - ```npm i```
