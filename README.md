@@ -1,9 +1,9 @@
-## Swap the potty for something not as shoddy!
- - Removes and replaces a whole slew of nasty words with positive and encouraging vocabulary.
+## Make the Internet a Little Less Rude
+ - Replaces offensive language with clean, friendly alternatives.
 
 ##### Get Started
 - ```npm i```
-- ```npm run build```or ```npm run debug``` for debug build.
+- ```npm run build```or ```npm run debug```
 - _build folder is generated.
 
 ##### In a Chromium-based browser

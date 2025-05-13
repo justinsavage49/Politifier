@@ -31,4 +31,15 @@ function swapWords()
     }
 }
 
-swapWords();
+function swapInjector()
+{
+    // Don't run scripts on .gov sites
+    const regex = /\.gov\b/gu;
+    const validUrl = !(regex.test(window.location.href));
+    if(validUrl)
+    {
+        swapWords();
+    }
+}
+
+swapInjector();
